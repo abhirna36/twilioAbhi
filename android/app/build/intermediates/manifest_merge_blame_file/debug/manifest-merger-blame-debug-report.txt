@@ -1,0 +1,503 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.twilliotesting"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="29" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->/Users/abhi/Desktop/Project/whpoctesting/android/app/src/debug/AndroidManifest.xml:5:5-77
+11-->/Users/abhi/Desktop/Project/whpoctesting/android/app/src/debug/AndroidManifest.xml:5:22-75
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/Users/abhi/Desktop/Project/whpoctesting/android/app/src/main/AndroidManifest.xml:5:5-67
+12-->/Users/abhi/Desktop/Project/whpoctesting/android/app/src/main/AndroidManifest.xml:5:22-64
+13    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+13-->[com.facebook.flipper:flipper:0.75.1] /Users/abhi/.gradle/caches/transforms-2/files-2.1/f9d88b765d55082c555b03383ce5488a/jetified-flipper-0.75.1/AndroidManifest.xml:16:5-76
+13-->[com.facebook.flipper:flipper:0.75.1] /Users/abhi/.gradle/caches/transforms-2/files-2.1/f9d88b765d55082c555b03383ce5488a/jetified-flipper-0.75.1/AndroidManifest.xml:16:22-73
+14
+15    <uses-feature android:name="android.hardware.camera" />
+15-->[:twilioVideo] /Users/abhi/Desktop/Project/whpoctesting/android/twilioVideo/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:5-60
+15-->[:twilioVideo] /Users/abhi/Desktop/Project/whpoctesting/android/twilioVideo/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:19-57
+16    <uses-feature android:name="android.hardware.camera.autofocus" />
+16-->[:twilioVideo] /Users/abhi/Desktop/Project/whpoctesting/android/twilioVideo/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:5-70
+16-->[:twilioVideo] /Users/abhi/Desktop/Project/whpoctesting/android/twilioVideo/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:19-67
+17    <uses-feature
+17-->[:twilioVideo] /Users/abhi/Desktop/Project/whpoctesting/android/twilioVideo/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:5-16:35
+18        android:glEsVersion="0x00020000"
+18-->[:twilioVideo] /Users/abhi/Desktop/Project/whpoctesting/android/twilioVideo/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:9-41
+19        android:required="true" />
+19-->[:twilioVideo] /Users/abhi/Desktop/Project/whpoctesting/android/twilioVideo/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:9-32
+20
+21    <uses-permission android:name="android.permission.CAMERA" />
+21-->[:twilioVideo] /Users/abhi/Desktop/Project/whpoctesting/android/twilioVideo/build/intermediates/library_manifest/debug/AndroidManifest.xml:18:5-65
+21-->[:twilioVideo] /Users/abhi/Desktop/Project/whpoctesting/android/twilioVideo/build/intermediates/library_manifest/debug/AndroidManifest.xml:18:22-62
+22    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+22-->[:twilioVideo] /Users/abhi/Desktop/Project/whpoctesting/android/twilioVideo/build/intermediates/library_manifest/debug/AndroidManifest.xml:19:5-71
+22-->[:twilioVideo] /Users/abhi/Desktop/Project/whpoctesting/android/twilioVideo/build/intermediates/library_manifest/debug/AndroidManifest.xml:19:22-68
+23    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+23-->[:twilioVideo] /Users/abhi/Desktop/Project/whpoctesting/android/twilioVideo/build/intermediates/library_manifest/debug/AndroidManifest.xml:20:5-77
+23-->[:twilioVideo] /Users/abhi/Desktop/Project/whpoctesting/android/twilioVideo/build/intermediates/library_manifest/debug/AndroidManifest.xml:20:22-74
+24    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+24-->[com.firebaseui:firebase-ui-auth:6.4.0] /Users/abhi/.gradle/caches/transforms-2/files-2.1/da1a46aa0db18db80c40b92e6458fe4b/jetified-firebase-ui-auth-6.4.0/AndroidManifest.xml:12:5-79
+24-->[com.firebaseui:firebase-ui-auth:6.4.0] /Users/abhi/.gradle/caches/transforms-2/files-2.1/da1a46aa0db18db80c40b92e6458fe4b/jetified-firebase-ui-auth-6.4.0/AndroidManifest.xml:12:22-76
+25    <uses-permission android:name="android.permission.WAKE_LOCK" />
+25-->[com.google.android.gms:play-services-measurement:17.5.0] /Users/abhi/.gradle/caches/transforms-2/files-2.1/5a353182cc7875d884b3b8c8752c6aa2/jetified-play-services-measurement-17.5.0/AndroidManifest.xml:25:5-68
+25-->[com.google.android.gms:play-services-measurement:17.5.0] /Users/abhi/.gradle/caches/transforms-2/files-2.1/5a353182cc7875d884b3b8c8752c6aa2/jetified-play-services-measurement-17.5.0/AndroidManifest.xml:25:22-65
+26    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+26-->[com.google.android.gms:play-services-measurement:17.5.0] /Users/abhi/.gradle/caches/transforms-2/files-2.1/5a353182cc7875d884b3b8c8752c6aa2/jetified-play-services-measurement-17.5.0/AndroidManifest.xml:26:5-110
+26-->[com.google.android.gms:play-services-measurement:17.5.0] /Users/abhi/.gradle/caches/transforms-2/files-2.1/5a353182cc7875d884b3b8c8752c6aa2/jetified-play-services-measurement-17.5.0/AndroidManifest.xml:26:22-107
+27    <uses-permission android:name="android.permission.BLUETOOTH" />
+27-->[com.twilio:audioswitch:1.1.2] /Users/abhi/.gradle/caches/transforms-2/files-2.1/d740d6b691233b711a280ae73ccfdb64/jetified-audioswitch-1.1.2/AndroidManifest.xml:9:5-68
+27-->[com.twilio:audioswitch:1.1.2] /Users/abhi/.gradle/caches/transforms-2/files-2.1/d740d6b691233b711a280ae73ccfdb64/jetified-audioswitch-1.1.2/AndroidManifest.xml:9:22-65
+28    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+28-->[com.twilio:audioswitch:1.1.2] /Users/abhi/.gradle/caches/transforms-2/files-2.1/d740d6b691233b711a280ae73ccfdb64/jetified-audioswitch-1.1.2/AndroidManifest.xml:10:5-80
+28-->[com.twilio:audioswitch:1.1.2] /Users/abhi/.gradle/caches/transforms-2/files-2.1/d740d6b691233b711a280ae73ccfdb64/jetified-audioswitch-1.1.2/AndroidManifest.xml:10:22-77
+29
+30    <application
+30-->/Users/abhi/Desktop/Project/whpoctesting/android/app/src/main/AndroidManifest.xml:7:5-25:19
+31        android:name="com.twilliotesting.MainApplication"
+31-->/Users/abhi/Desktop/Project/whpoctesting/android/app/src/main/AndroidManifest.xml:8:7-38
+32        android:allowBackup="false"
+32-->/Users/abhi/Desktop/Project/whpoctesting/android/app/src/main/AndroidManifest.xml:12:7-34
+33        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+33-->[androidx.core:core:1.3.2] /Users/abhi/.gradle/caches/transforms-2/files-2.1/64ff12cc1759d436e40fabc09bfafa5d/core-1.3.2/AndroidManifest.xml:24:18-86
+34        android:debuggable="true"
+35        android:icon="@mipmap/ic_launcher"
+35-->/Users/abhi/Desktop/Project/whpoctesting/android/app/src/main/AndroidManifest.xml:10:7-41
+36        android:label="@string/app_name"
+36-->/Users/abhi/Desktop/Project/whpoctesting/android/app/src/main/AndroidManifest.xml:9:7-39
+37        android:roundIcon="@mipmap/ic_launcher_round"
+37-->/Users/abhi/Desktop/Project/whpoctesting/android/app/src/main/AndroidManifest.xml:11:7-52
+38        android:testOnly="true"
+39        android:theme="@style/AppTheme"
+39-->/Users/abhi/Desktop/Project/whpoctesting/android/app/src/main/AndroidManifest.xml:13:7-38
+40        android:usesCleartextTraffic="true" >
+40-->/Users/abhi/Desktop/Project/whpoctesting/android/app/src/debug/AndroidManifest.xml:8:9-44
+41        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+41-->/Users/abhi/Desktop/Project/whpoctesting/android/app/src/debug/AndroidManifest.xml:11:9-86
+41-->/Users/abhi/Desktop/Project/whpoctesting/android/app/src/debug/AndroidManifest.xml:11:19-83
+42        <activity
+42-->/Users/abhi/Desktop/Project/whpoctesting/android/app/src/main/AndroidManifest.xml:14:7-24:18
+43            android:name="com.twilliotesting.MainActivity"
+43-->/Users/abhi/Desktop/Project/whpoctesting/android/app/src/main/AndroidManifest.xml:15:9-37
+44            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+44-->/Users/abhi/Desktop/Project/whpoctesting/android/app/src/main/AndroidManifest.xml:17:9-86
+45            android:label="@string/app_name"
+45-->/Users/abhi/Desktop/Project/whpoctesting/android/app/src/main/AndroidManifest.xml:16:9-41
+46            android:launchMode="singleTask"
+46-->/Users/abhi/Desktop/Project/whpoctesting/android/app/src/main/AndroidManifest.xml:18:9-40
+47            android:windowSoftInputMode="adjustResize" >
+47-->/Users/abhi/Desktop/Project/whpoctesting/android/app/src/main/AndroidManifest.xml:19:9-51
+48            <intent-filter>
+48-->/Users/abhi/Desktop/Project/whpoctesting/android/app/src/main/AndroidManifest.xml:20:9-23:25
+49                <action android:name="android.intent.action.MAIN" />
+49-->/Users/abhi/Desktop/Project/whpoctesting/android/app/src/main/AndroidManifest.xml:21:13-65
+49-->/Users/abhi/Desktop/Project/whpoctesting/android/app/src/main/AndroidManifest.xml:21:21-62
+50
+51                <category android:name="android.intent.category.LAUNCHER" />
+51-->/Users/abhi/Desktop/Project/whpoctesting/android/app/src/main/AndroidManifest.xml:22:13-73
+51-->/Users/abhi/Desktop/Project/whpoctesting/android/app/src/main/AndroidManifest.xml:22:23-70
+52            </intent-filter>
+53        </activity>
+54
+55        <provider
+55-->[:react-native-webview] /Users/abhi/Desktop/Project/whpoctesting/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:9-20:20
+56            android:name="com.reactnativecommunity.webview.RNCWebViewFileProvider"
+56-->[:react-native-webview] /Users/abhi/Desktop/Project/whpoctesting/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-83
+57            android:authorities="com.twilliotesting.fileprovider"
+57-->[:react-native-webview] /Users/abhi/Desktop/Project/whpoctesting/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-64
+58            android:exported="false"
+58-->[:react-native-webview] /Users/abhi/Desktop/Project/whpoctesting/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-37
+59            android:grantUriPermissions="true" >
+59-->[:react-native-webview] /Users/abhi/Desktop/Project/whpoctesting/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:13-47
+60            <meta-data
+60-->[:react-native-webview] /Users/abhi/Desktop/Project/whpoctesting/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:13-19:63
+61                android:name="android.support.FILE_PROVIDER_PATHS"
+61-->[:react-native-webview] /Users/abhi/Desktop/Project/whpoctesting/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:18:17-67
+62                android:resource="@xml/file_provider_paths" />
+62-->[:react-native-webview] /Users/abhi/Desktop/Project/whpoctesting/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:19:17-60
+63        </provider>
+64
+65        <activity
+65-->[:twilioVideo] /Users/abhi/Desktop/Project/whpoctesting/android/twilioVideo/build/intermediates/library_manifest/debug/AndroidManifest.xml:28:9-52:20
+66            android:name="com.twilio.video.app.ui.splash.SplashActivity"
+66-->[:twilioVideo] /Users/abhi/Desktop/Project/whpoctesting/android/twilioVideo/build/intermediates/library_manifest/debug/AndroidManifest.xml:29:13-73
+67            android:configChanges="orientation|screenSize"
+67-->[:twilioVideo] /Users/abhi/Desktop/Project/whpoctesting/android/twilioVideo/build/intermediates/library_manifest/debug/AndroidManifest.xml:30:13-59
+68            android:theme="@style/AppTheme.SplashScreen" >
+68-->[:twilioVideo] /Users/abhi/Desktop/Project/whpoctesting/android/twilioVideo/build/intermediates/library_manifest/debug/AndroidManifest.xml:31:13-57
+69
+70            <!-- <intent-filter> -->
+71            <!-- <action android:name="android.intent.action.MAIN"/> -->
+72
+73
+74            <!-- <category android:name="android.intent.category.LAUNCHER"/> -->
+75            <!-- </intent-filter> -->
+76            <intent-filter android:autoVerify="true" >
+76-->[:twilioVideo] /Users/abhi/Desktop/Project/whpoctesting/android/twilioVideo/build/intermediates/library_manifest/debug/AndroidManifest.xml:39:13-51:29
+76-->[:twilioVideo] /Users/abhi/Desktop/Project/whpoctesting/android/twilioVideo/build/intermediates/library_manifest/debug/AndroidManifest.xml:40:17-42
+77                <action android:name="android.intent.action.VIEW" />
+77-->[:twilioVideo] /Users/abhi/Desktop/Project/whpoctesting/android/twilioVideo/build/intermediates/library_manifest/debug/AndroidManifest.xml:42:17-69
+77-->[:twilioVideo] /Users/abhi/Desktop/Project/whpoctesting/android/twilioVideo/build/intermediates/library_manifest/debug/AndroidManifest.xml:42:25-66
+78
+79                <category android:name="android.intent.category.DEFAULT" />
+79-->[:twilioVideo] /Users/abhi/Desktop/Project/whpoctesting/android/twilioVideo/build/intermediates/library_manifest/debug/AndroidManifest.xml:44:17-76
+79-->[:twilioVideo] /Users/abhi/Desktop/Project/whpoctesting/android/twilioVideo/build/intermediates/library_manifest/debug/AndroidManifest.xml:44:27-73
+80                <category android:name="android.intent.category.BROWSABLE" />
+80-->[:twilioVideo] /Users/abhi/Desktop/Project/whpoctesting/android/twilioVideo/build/intermediates/library_manifest/debug/AndroidManifest.xml:45:17-78
+80-->[:twilioVideo] /Users/abhi/Desktop/Project/whpoctesting/android/twilioVideo/build/intermediates/library_manifest/debug/AndroidManifest.xml:45:27-75
+81
+82                <data
+82-->[:twilioVideo] /Users/abhi/Desktop/Project/whpoctesting/android/twilioVideo/build/intermediates/library_manifest/debug/AndroidManifest.xml:47:17-50:46
+83                    android:host="@string/web_app_domain"
+83-->[:twilioVideo] /Users/abhi/Desktop/Project/whpoctesting/android/twilioVideo/build/intermediates/library_manifest/debug/AndroidManifest.xml:48:21-58
+84                    android:pathPrefix="/room"
+84-->[:twilioVideo] /Users/abhi/Desktop/Project/whpoctesting/android/twilioVideo/build/intermediates/library_manifest/debug/AndroidManifest.xml:49:21-47
+85                    android:scheme="https" />
+85-->[:twilioVideo] /Users/abhi/Desktop/Project/whpoctesting/android/twilioVideo/build/intermediates/library_manifest/debug/AndroidManifest.xml:50:21-43
+86            </intent-filter>
+87        </activity>
+88        <activity
+88-->[:twilioVideo] /Users/abhi/Desktop/Project/whpoctesting/android/twilioVideo/build/intermediates/library_manifest/debug/AndroidManifest.xml:53:9-56:76
+89            android:name="com.twilio.video.app.ui.login.LoginActivity"
+89-->[:twilioVideo] /Users/abhi/Desktop/Project/whpoctesting/android/twilioVideo/build/intermediates/library_manifest/debug/AndroidManifest.xml:54:13-71
+90            android:theme="@style/AppTheme.LoginScreen"
+90-->[:twilioVideo] /Users/abhi/Desktop/Project/whpoctesting/android/twilioVideo/build/intermediates/library_manifest/debug/AndroidManifest.xml:55:13-56
+91            android:windowSoftInputMode="adjustResize|stateAlwaysHidden" />
+91-->[:twilioVideo] /Users/abhi/Desktop/Project/whpoctesting/android/twilioVideo/build/intermediates/library_manifest/debug/AndroidManifest.xml:56:13-73
+92        <activity
+92-->[:twilioVideo] /Users/abhi/Desktop/Project/whpoctesting/android/twilioVideo/build/intermediates/library_manifest/debug/AndroidManifest.xml:57:9-63:20
+93            android:name="com.twilio.video.app.ui.room.RoomActivity"
+93-->[:twilioVideo] /Users/abhi/Desktop/Project/whpoctesting/android/twilioVideo/build/intermediates/library_manifest/debug/AndroidManifest.xml:58:13-69
+94            android:configChanges="orientation|screenSize"
+94-->[:twilioVideo] /Users/abhi/Desktop/Project/whpoctesting/android/twilioVideo/build/intermediates/library_manifest/debug/AndroidManifest.xml:59:13-59
+95            android:launchMode="singleTask"
+95-->[:twilioVideo] /Users/abhi/Desktop/Project/whpoctesting/android/twilioVideo/build/intermediates/library_manifest/debug/AndroidManifest.xml:60:13-44
+96            android:theme="@style/AppTheme.Lobby"
+96-->[:twilioVideo] /Users/abhi/Desktop/Project/whpoctesting/android/twilioVideo/build/intermediates/library_manifest/debug/AndroidManifest.xml:61:13-50
+97            android:windowSoftInputMode="adjustPan" >
+97-->[:twilioVideo] /Users/abhi/Desktop/Project/whpoctesting/android/twilioVideo/build/intermediates/library_manifest/debug/AndroidManifest.xml:62:13-52
+98        </activity>
+99        <activity
+99-->[:twilioVideo] /Users/abhi/Desktop/Project/whpoctesting/android/twilioVideo/build/intermediates/library_manifest/debug/AndroidManifest.xml:64:9-67:56
+100            android:name="com.twilio.video.app.ui.settings.SettingsActivity"
+100-->[:twilioVideo] /Users/abhi/Desktop/Project/whpoctesting/android/twilioVideo/build/intermediates/library_manifest/debug/AndroidManifest.xml:65:13-77
+101            android:parentActivityName="com.twilio.video.app.ui.room.RoomActivity"
+101-->[:twilioVideo] /Users/abhi/Desktop/Project/whpoctesting/android/twilioVideo/build/intermediates/library_manifest/debug/AndroidManifest.xml:66:13-83
+102            android:theme="@style/AppTheme.Settings" />
+102-->[:twilioVideo] /Users/abhi/Desktop/Project/whpoctesting/android/twilioVideo/build/intermediates/library_manifest/debug/AndroidManifest.xml:67:13-53
+103
+104        <service
+104-->[:twilioVideo] /Users/abhi/Desktop/Project/whpoctesting/android/twilioVideo/build/intermediates/library_manifest/debug/AndroidManifest.xml:69:9-71:63
+105            android:name="com.twilio.video.app.ui.room.VideoService"
+105-->[:twilioVideo] /Users/abhi/Desktop/Project/whpoctesting/android/twilioVideo/build/intermediates/library_manifest/debug/AndroidManifest.xml:70:13-69
+106            android:foregroundServiceType="mediaProjection" />
+106-->[:twilioVideo] /Users/abhi/Desktop/Project/whpoctesting/android/twilioVideo/build/intermediates/library_manifest/debug/AndroidManifest.xml:71:13-60
+107
+108        <meta-data
+108-->[com.firebaseui:firebase-ui-auth:6.4.0] /Users/abhi/.gradle/caches/transforms-2/files-2.1/da1a46aa0db18db80c40b92e6458fe4b/jetified-firebase-ui-auth-6.4.0/AndroidManifest.xml:16:9-18:69
+109            android:name="com.google.android.gms.version"
+109-->[com.firebaseui:firebase-ui-auth:6.4.0] /Users/abhi/.gradle/caches/transforms-2/files-2.1/da1a46aa0db18db80c40b92e6458fe4b/jetified-firebase-ui-auth-6.4.0/AndroidManifest.xml:17:13-58
+110            android:value="@integer/google_play_services_version" />
+110-->[com.firebaseui:firebase-ui-auth:6.4.0] /Users/abhi/.gradle/caches/transforms-2/files-2.1/da1a46aa0db18db80c40b92e6458fe4b/jetified-firebase-ui-auth-6.4.0/AndroidManifest.xml:18:13-66
+111        <meta-data
+111-->[com.firebaseui:firebase-ui-auth:6.4.0] /Users/abhi/.gradle/caches/transforms-2/files-2.1/da1a46aa0db18db80c40b92e6458fe4b/jetified-firebase-ui-auth-6.4.0/AndroidManifest.xml:19:9-21:63
+112            android:name="com.facebook.sdk.ApplicationId"
+112-->[com.firebaseui:firebase-ui-auth:6.4.0] /Users/abhi/.gradle/caches/transforms-2/files-2.1/da1a46aa0db18db80c40b92e6458fe4b/jetified-firebase-ui-auth-6.4.0/AndroidManifest.xml:20:13-58
+113            android:value="@string/facebook_application_id" />
+113-->[com.firebaseui:firebase-ui-auth:6.4.0] /Users/abhi/.gradle/caches/transforms-2/files-2.1/da1a46aa0db18db80c40b92e6458fe4b/jetified-firebase-ui-auth-6.4.0/AndroidManifest.xml:21:13-60
+114
+115        <activity
+115-->[com.firebaseui:firebase-ui-auth:6.4.0] /Users/abhi/.gradle/caches/transforms-2/files-2.1/da1a46aa0db18db80c40b92e6458fe4b/jetified-firebase-ui-auth-6.4.0/AndroidManifest.xml:23:9-27:61
+116            android:name="com.firebase.ui.auth.KickoffActivity"
+116-->[com.firebaseui:firebase-ui-auth:6.4.0] /Users/abhi/.gradle/caches/transforms-2/files-2.1/da1a46aa0db18db80c40b92e6458fe4b/jetified-firebase-ui-auth-6.4.0/AndroidManifest.xml:24:13-64
+117            android:exported="false"
+117-->[com.firebaseui:firebase-ui-auth:6.4.0] /Users/abhi/.gradle/caches/transforms-2/files-2.1/da1a46aa0db18db80c40b92e6458fe4b/jetified-firebase-ui-auth-6.4.0/AndroidManifest.xml:25:13-37
+118            android:label=""
+118-->[com.firebaseui:firebase-ui-auth:6.4.0] /Users/abhi/.gradle/caches/transforms-2/files-2.1/da1a46aa0db18db80c40b92e6458fe4b/jetified-firebase-ui-auth-6.4.0/AndroidManifest.xml:26:13-29
+119            android:theme="@style/FirebaseUI.Transparent" />
+119-->[com.firebaseui:firebase-ui-auth:6.4.0] /Users/abhi/.gradle/caches/transforms-2/files-2.1/da1a46aa0db18db80c40b92e6458fe4b/jetified-firebase-ui-auth-6.4.0/AndroidManifest.xml:27:13-58
+120        <activity
+120-->[com.firebaseui:firebase-ui-auth:6.4.0] /Users/abhi/.gradle/caches/transforms-2/files-2.1/da1a46aa0db18db80c40b92e6458fe4b/jetified-firebase-ui-auth-6.4.0/AndroidManifest.xml:28:9-32:61
+121            android:name="com.firebase.ui.auth.ui.idp.SingleSignInActivity"
+121-->[com.firebaseui:firebase-ui-auth:6.4.0] /Users/abhi/.gradle/caches/transforms-2/files-2.1/da1a46aa0db18db80c40b92e6458fe4b/jetified-firebase-ui-auth-6.4.0/AndroidManifest.xml:29:13-76
+122            android:exported="false"
+122-->[com.firebaseui:firebase-ui-auth:6.4.0] /Users/abhi/.gradle/caches/transforms-2/files-2.1/da1a46aa0db18db80c40b92e6458fe4b/jetified-firebase-ui-auth-6.4.0/AndroidManifest.xml:30:13-37
+123            android:label=""
+123-->[com.firebaseui:firebase-ui-auth:6.4.0] /Users/abhi/.gradle/caches/transforms-2/files-2.1/da1a46aa0db18db80c40b92e6458fe4b/jetified-firebase-ui-auth-6.4.0/AndroidManifest.xml:31:13-29
+124            android:theme="@style/FirebaseUI.Transparent" />
+124-->[com.firebaseui:firebase-ui-auth:6.4.0] /Users/abhi/.gradle/caches/transforms-2/files-2.1/da1a46aa0db18db80c40b92e6458fe4b/jetified-firebase-ui-auth-6.4.0/AndroidManifest.xml:32:13-58
+125        <activity
+125-->[com.firebaseui:firebase-ui-auth:6.4.0] /Users/abhi/.gradle/caches/transforms-2/files-2.1/da1a46aa0db18db80c40b92e6458fe4b/jetified-firebase-ui-auth-6.4.0/AndroidManifest.xml:33:9-37:61
+126            android:name="com.firebase.ui.auth.ui.credentials.CredentialSaveActivity"
+126-->[com.firebaseui:firebase-ui-auth:6.4.0] /Users/abhi/.gradle/caches/transforms-2/files-2.1/da1a46aa0db18db80c40b92e6458fe4b/jetified-firebase-ui-auth-6.4.0/AndroidManifest.xml:34:13-86
+127            android:exported="false"
+127-->[com.firebaseui:firebase-ui-auth:6.4.0] /Users/abhi/.gradle/caches/transforms-2/files-2.1/da1a46aa0db18db80c40b92e6458fe4b/jetified-firebase-ui-auth-6.4.0/AndroidManifest.xml:35:13-37
+128            android:label=""
+128-->[com.firebaseui:firebase-ui-auth:6.4.0] /Users/abhi/.gradle/caches/transforms-2/files-2.1/da1a46aa0db18db80c40b92e6458fe4b/jetified-firebase-ui-auth-6.4.0/AndroidManifest.xml:36:13-29
+129            android:theme="@style/FirebaseUI.Transparent" />
+129-->[com.firebaseui:firebase-ui-auth:6.4.0] /Users/abhi/.gradle/caches/transforms-2/files-2.1/da1a46aa0db18db80c40b92e6458fe4b/jetified-firebase-ui-auth-6.4.0/AndroidManifest.xml:37:13-58
+130        <activity
+130-->[com.firebaseui:firebase-ui-auth:6.4.0] /Users/abhi/.gradle/caches/transforms-2/files-2.1/da1a46aa0db18db80c40b92e6458fe4b/jetified-firebase-ui-auth-6.4.0/AndroidManifest.xml:38:9-42:58
+131            android:name="com.firebase.ui.auth.ui.email.RecoverPasswordActivity"
+131-->[com.firebaseui:firebase-ui-auth:6.4.0] /Users/abhi/.gradle/caches/transforms-2/files-2.1/da1a46aa0db18db80c40b92e6458fe4b/jetified-firebase-ui-auth-6.4.0/AndroidManifest.xml:39:13-81
+132            android:exported="false"
+132-->[com.firebaseui:firebase-ui-auth:6.4.0] /Users/abhi/.gradle/caches/transforms-2/files-2.1/da1a46aa0db18db80c40b92e6458fe4b/jetified-firebase-ui-auth-6.4.0/AndroidManifest.xml:40:13-37
+133            android:label="@string/fui_title_recover_password_activity"
+133-->[com.firebaseui:firebase-ui-auth:6.4.0] /Users/abhi/.gradle/caches/transforms-2/files-2.1/da1a46aa0db18db80c40b92e6458fe4b/jetified-firebase-ui-auth-6.4.0/AndroidManifest.xml:41:13-72
+134            android:windowSoftInputMode="adjustResize" />
+134-->[com.firebaseui:firebase-ui-auth:6.4.0] /Users/abhi/.gradle/caches/transforms-2/files-2.1/da1a46aa0db18db80c40b92e6458fe4b/jetified-firebase-ui-auth-6.4.0/AndroidManifest.xml:42:13-55
+135        <activity
+135-->[com.firebaseui:firebase-ui-auth:6.4.0] /Users/abhi/.gradle/caches/transforms-2/files-2.1/da1a46aa0db18db80c40b92e6458fe4b/jetified-firebase-ui-auth-6.4.0/AndroidManifest.xml:43:9-47:58
+136            android:name="com.firebase.ui.auth.ui.email.EmailActivity"
+136-->[com.firebaseui:firebase-ui-auth:6.4.0] /Users/abhi/.gradle/caches/transforms-2/files-2.1/da1a46aa0db18db80c40b92e6458fe4b/jetified-firebase-ui-auth-6.4.0/AndroidManifest.xml:44:13-71
+137            android:exported="false"
+137-->[com.firebaseui:firebase-ui-auth:6.4.0] /Users/abhi/.gradle/caches/transforms-2/files-2.1/da1a46aa0db18db80c40b92e6458fe4b/jetified-firebase-ui-auth-6.4.0/AndroidManifest.xml:45:13-37
+138            android:label="@string/fui_sign_in_default"
+138-->[com.firebaseui:firebase-ui-auth:6.4.0] /Users/abhi/.gradle/caches/transforms-2/files-2.1/da1a46aa0db18db80c40b92e6458fe4b/jetified-firebase-ui-auth-6.4.0/AndroidManifest.xml:46:13-56
+139            android:windowSoftInputMode="adjustResize" />
+139-->[com.firebaseui:firebase-ui-auth:6.4.0] /Users/abhi/.gradle/caches/transforms-2/files-2.1/da1a46aa0db18db80c40b92e6458fe4b/jetified-firebase-ui-auth-6.4.0/AndroidManifest.xml:47:13-55
+140        <activity
+140-->[com.firebaseui:firebase-ui-auth:6.4.0] /Users/abhi/.gradle/caches/transforms-2/files-2.1/da1a46aa0db18db80c40b92e6458fe4b/jetified-firebase-ui-auth-6.4.0/AndroidManifest.xml:48:9-52:77
+141            android:name="com.firebase.ui.auth.ui.phone.PhoneActivity"
+141-->[com.firebaseui:firebase-ui-auth:6.4.0] /Users/abhi/.gradle/caches/transforms-2/files-2.1/da1a46aa0db18db80c40b92e6458fe4b/jetified-firebase-ui-auth-6.4.0/AndroidManifest.xml:49:13-71
+142            android:exported="false"
+142-->[com.firebaseui:firebase-ui-auth:6.4.0] /Users/abhi/.gradle/caches/transforms-2/files-2.1/da1a46aa0db18db80c40b92e6458fe4b/jetified-firebase-ui-auth-6.4.0/AndroidManifest.xml:50:13-37
+143            android:label="@string/fui_sign_in_with_phone_number"
+143-->[com.firebaseui:firebase-ui-auth:6.4.0] /Users/abhi/.gradle/caches/transforms-2/files-2.1/da1a46aa0db18db80c40b92e6458fe4b/jetified-firebase-ui-auth-6.4.0/AndroidManifest.xml:51:13-66
+144            android:windowSoftInputMode="adjustResize|stateAlwaysVisible" />
+144-->[com.firebaseui:firebase-ui-auth:6.4.0] /Users/abhi/.gradle/caches/transforms-2/files-2.1/da1a46aa0db18db80c40b92e6458fe4b/jetified-firebase-ui-auth-6.4.0/AndroidManifest.xml:52:13-74
+145        <activity
+145-->[com.firebaseui:firebase-ui-auth:6.4.0] /Users/abhi/.gradle/caches/transforms-2/files-2.1/da1a46aa0db18db80c40b92e6458fe4b/jetified-firebase-ui-auth-6.4.0/AndroidManifest.xml:53:9-57:58
+146            android:name="com.firebase.ui.auth.ui.idp.WelcomeBackIdpPrompt"
+146-->[com.firebaseui:firebase-ui-auth:6.4.0] /Users/abhi/.gradle/caches/transforms-2/files-2.1/da1a46aa0db18db80c40b92e6458fe4b/jetified-firebase-ui-auth-6.4.0/AndroidManifest.xml:54:13-76
+147            android:exported="false"
+147-->[com.firebaseui:firebase-ui-auth:6.4.0] /Users/abhi/.gradle/caches/transforms-2/files-2.1/da1a46aa0db18db80c40b92e6458fe4b/jetified-firebase-ui-auth-6.4.0/AndroidManifest.xml:55:13-37
+148            android:label="@string/fui_title_welcome_back_idp_prompt"
+148-->[com.firebaseui:firebase-ui-auth:6.4.0] /Users/abhi/.gradle/caches/transforms-2/files-2.1/da1a46aa0db18db80c40b92e6458fe4b/jetified-firebase-ui-auth-6.4.0/AndroidManifest.xml:56:13-70
+149            android:windowSoftInputMode="adjustResize" />
+149-->[com.firebaseui:firebase-ui-auth:6.4.0] /Users/abhi/.gradle/caches/transforms-2/files-2.1/da1a46aa0db18db80c40b92e6458fe4b/jetified-firebase-ui-auth-6.4.0/AndroidManifest.xml:57:13-55
+150        <activity
+150-->[com.firebaseui:firebase-ui-auth:6.4.0] /Users/abhi/.gradle/caches/transforms-2/files-2.1/da1a46aa0db18db80c40b92e6458fe4b/jetified-firebase-ui-auth-6.4.0/AndroidManifest.xml:58:9-62:58
+151            android:name="com.firebase.ui.auth.ui.email.WelcomeBackPasswordPrompt"
+151-->[com.firebaseui:firebase-ui-auth:6.4.0] /Users/abhi/.gradle/caches/transforms-2/files-2.1/da1a46aa0db18db80c40b92e6458fe4b/jetified-firebase-ui-auth-6.4.0/AndroidManifest.xml:59:13-83
+152            android:exported="false"
+152-->[com.firebaseui:firebase-ui-auth:6.4.0] /Users/abhi/.gradle/caches/transforms-2/files-2.1/da1a46aa0db18db80c40b92e6458fe4b/jetified-firebase-ui-auth-6.4.0/AndroidManifest.xml:60:13-37
+153            android:label="@string/fui_title_welcome_back_password_prompt"
+153-->[com.firebaseui:firebase-ui-auth:6.4.0] /Users/abhi/.gradle/caches/transforms-2/files-2.1/da1a46aa0db18db80c40b92e6458fe4b/jetified-firebase-ui-auth-6.4.0/AndroidManifest.xml:61:13-75
+154            android:windowSoftInputMode="adjustResize" />
+154-->[com.firebaseui:firebase-ui-auth:6.4.0] /Users/abhi/.gradle/caches/transforms-2/files-2.1/da1a46aa0db18db80c40b92e6458fe4b/jetified-firebase-ui-auth-6.4.0/AndroidManifest.xml:62:13-55
+155        <activity
+155-->[com.firebaseui:firebase-ui-auth:6.4.0] /Users/abhi/.gradle/caches/transforms-2/files-2.1/da1a46aa0db18db80c40b92e6458fe4b/jetified-firebase-ui-auth-6.4.0/AndroidManifest.xml:63:9-67:58
+156            android:name="com.firebase.ui.auth.ui.email.WelcomeBackEmailLinkPrompt"
+156-->[com.firebaseui:firebase-ui-auth:6.4.0] /Users/abhi/.gradle/caches/transforms-2/files-2.1/da1a46aa0db18db80c40b92e6458fe4b/jetified-firebase-ui-auth-6.4.0/AndroidManifest.xml:64:13-84
+157            android:exported="false"
+157-->[com.firebaseui:firebase-ui-auth:6.4.0] /Users/abhi/.gradle/caches/transforms-2/files-2.1/da1a46aa0db18db80c40b92e6458fe4b/jetified-firebase-ui-auth-6.4.0/AndroidManifest.xml:65:13-37
+158            android:label="@string/fui_title_welcome_back_password_prompt"
+158-->[com.firebaseui:firebase-ui-auth:6.4.0] /Users/abhi/.gradle/caches/transforms-2/files-2.1/da1a46aa0db18db80c40b92e6458fe4b/jetified-firebase-ui-auth-6.4.0/AndroidManifest.xml:66:13-75
+159            android:windowSoftInputMode="adjustResize" />
+159-->[com.firebaseui:firebase-ui-auth:6.4.0] /Users/abhi/.gradle/caches/transforms-2/files-2.1/da1a46aa0db18db80c40b92e6458fe4b/jetified-firebase-ui-auth-6.4.0/AndroidManifest.xml:67:13-55
+160        <activity
+160-->[com.firebaseui:firebase-ui-auth:6.4.0] /Users/abhi/.gradle/caches/transforms-2/files-2.1/da1a46aa0db18db80c40b92e6458fe4b/jetified-firebase-ui-auth-6.4.0/AndroidManifest.xml:68:9-73:58
+161            android:name="com.firebase.ui.auth.ui.email.EmailLinkCatcherActivity"
+161-->[com.firebaseui:firebase-ui-auth:6.4.0] /Users/abhi/.gradle/caches/transforms-2/files-2.1/da1a46aa0db18db80c40b92e6458fe4b/jetified-firebase-ui-auth-6.4.0/AndroidManifest.xml:69:13-82
+162            android:exported="false"
+162-->[com.firebaseui:firebase-ui-auth:6.4.0] /Users/abhi/.gradle/caches/transforms-2/files-2.1/da1a46aa0db18db80c40b92e6458fe4b/jetified-firebase-ui-auth-6.4.0/AndroidManifest.xml:70:13-37
+163            android:label=""
+163-->[com.firebaseui:firebase-ui-auth:6.4.0] /Users/abhi/.gradle/caches/transforms-2/files-2.1/da1a46aa0db18db80c40b92e6458fe4b/jetified-firebase-ui-auth-6.4.0/AndroidManifest.xml:71:13-29
+164            android:theme="@style/FirebaseUI.Transparent"
+164-->[com.firebaseui:firebase-ui-auth:6.4.0] /Users/abhi/.gradle/caches/transforms-2/files-2.1/da1a46aa0db18db80c40b92e6458fe4b/jetified-firebase-ui-auth-6.4.0/AndroidManifest.xml:72:13-58
+165            android:windowSoftInputMode="adjustResize" />
+165-->[com.firebaseui:firebase-ui-auth:6.4.0] /Users/abhi/.gradle/caches/transforms-2/files-2.1/da1a46aa0db18db80c40b92e6458fe4b/jetified-firebase-ui-auth-6.4.0/AndroidManifest.xml:73:13-55
+166        <activity
+166-->[com.firebaseui:firebase-ui-auth:6.4.0] /Users/abhi/.gradle/caches/transforms-2/files-2.1/da1a46aa0db18db80c40b92e6458fe4b/jetified-firebase-ui-auth-6.4.0/AndroidManifest.xml:74:9-78:58
+167            android:name="com.firebase.ui.auth.ui.email.EmailLinkErrorRecoveryActivity"
+167-->[com.firebaseui:firebase-ui-auth:6.4.0] /Users/abhi/.gradle/caches/transforms-2/files-2.1/da1a46aa0db18db80c40b92e6458fe4b/jetified-firebase-ui-auth-6.4.0/AndroidManifest.xml:75:13-88
+168            android:exported="false"
+168-->[com.firebaseui:firebase-ui-auth:6.4.0] /Users/abhi/.gradle/caches/transforms-2/files-2.1/da1a46aa0db18db80c40b92e6458fe4b/jetified-firebase-ui-auth-6.4.0/AndroidManifest.xml:76:13-37
+169            android:label="@string/fui_sign_in_default"
+169-->[com.firebaseui:firebase-ui-auth:6.4.0] /Users/abhi/.gradle/caches/transforms-2/files-2.1/da1a46aa0db18db80c40b92e6458fe4b/jetified-firebase-ui-auth-6.4.0/AndroidManifest.xml:77:13-56
+170            android:windowSoftInputMode="adjustResize" />
+170-->[com.firebaseui:firebase-ui-auth:6.4.0] /Users/abhi/.gradle/caches/transforms-2/files-2.1/da1a46aa0db18db80c40b92e6458fe4b/jetified-firebase-ui-auth-6.4.0/AndroidManifest.xml:78:13-55
+171        <activity
+171-->[com.firebaseui:firebase-ui-auth:6.4.0] /Users/abhi/.gradle/caches/transforms-2/files-2.1/da1a46aa0db18db80c40b92e6458fe4b/jetified-firebase-ui-auth-6.4.0/AndroidManifest.xml:79:9-82:65
+172            android:name="com.firebase.ui.auth.ui.idp.AuthMethodPickerActivity"
+172-->[com.firebaseui:firebase-ui-auth:6.4.0] /Users/abhi/.gradle/caches/transforms-2/files-2.1/da1a46aa0db18db80c40b92e6458fe4b/jetified-firebase-ui-auth-6.4.0/AndroidManifest.xml:80:13-80
+173            android:exported="false"
+173-->[com.firebaseui:firebase-ui-auth:6.4.0] /Users/abhi/.gradle/caches/transforms-2/files-2.1/da1a46aa0db18db80c40b92e6458fe4b/jetified-firebase-ui-auth-6.4.0/AndroidManifest.xml:81:13-37
+174            android:label="@string/fui_default_toolbar_title" />
+174-->[com.firebaseui:firebase-ui-auth:6.4.0] /Users/abhi/.gradle/caches/transforms-2/files-2.1/da1a46aa0db18db80c40b92e6458fe4b/jetified-firebase-ui-auth-6.4.0/AndroidManifest.xml:82:13-62
+175        <activity
+175-->[com.firebaseui:firebase-ui-auth:6.4.0] /Users/abhi/.gradle/caches/transforms-2/files-2.1/da1a46aa0db18db80c40b92e6458fe4b/jetified-firebase-ui-auth-6.4.0/AndroidManifest.xml:83:9-87:48
+176            android:name="com.facebook.FacebookActivity"
+176-->[com.firebaseui:firebase-ui-auth:6.4.0] /Users/abhi/.gradle/caches/transforms-2/files-2.1/da1a46aa0db18db80c40b92e6458fe4b/jetified-firebase-ui-auth-6.4.0/AndroidManifest.xml:84:13-57
+177            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+177-->[com.firebaseui:firebase-ui-auth:6.4.0] /Users/abhi/.gradle/caches/transforms-2/files-2.1/da1a46aa0db18db80c40b92e6458fe4b/jetified-firebase-ui-auth-6.4.0/AndroidManifest.xml:85:13-96
+178            android:label="@string/app_name" />
+178-->[com.firebaseui:firebase-ui-auth:6.4.0] /Users/abhi/.gradle/caches/transforms-2/files-2.1/da1a46aa0db18db80c40b92e6458fe4b/jetified-firebase-ui-auth-6.4.0/AndroidManifest.xml:86:13-45
+179        <activity
+179-->[com.firebaseui:firebase-ui-auth:6.4.0] /Users/abhi/.gradle/caches/transforms-2/files-2.1/da1a46aa0db18db80c40b92e6458fe4b/jetified-firebase-ui-auth-6.4.0/AndroidManifest.xml:88:9-100:20
+180            android:name="com.facebook.CustomTabActivity"
+180-->[com.firebaseui:firebase-ui-auth:6.4.0] /Users/abhi/.gradle/caches/transforms-2/files-2.1/da1a46aa0db18db80c40b92e6458fe4b/jetified-firebase-ui-auth-6.4.0/AndroidManifest.xml:89:13-58
+181            android:exported="true" >
+181-->[com.firebaseui:firebase-ui-auth:6.4.0] /Users/abhi/.gradle/caches/transforms-2/files-2.1/da1a46aa0db18db80c40b92e6458fe4b/jetified-firebase-ui-auth-6.4.0/AndroidManifest.xml:90:13-36
+182            <intent-filter>
+182-->[com.firebaseui:firebase-ui-auth:6.4.0] /Users/abhi/.gradle/caches/transforms-2/files-2.1/da1a46aa0db18db80c40b92e6458fe4b/jetified-firebase-ui-auth-6.4.0/AndroidManifest.xml:92:13-99:29
+183                <action android:name="android.intent.action.VIEW" />
+183-->[:twilioVideo] /Users/abhi/Desktop/Project/whpoctesting/android/twilioVideo/build/intermediates/library_manifest/debug/AndroidManifest.xml:42:17-69
+183-->[:twilioVideo] /Users/abhi/Desktop/Project/whpoctesting/android/twilioVideo/build/intermediates/library_manifest/debug/AndroidManifest.xml:42:25-66
+184
+185                <category android:name="android.intent.category.DEFAULT" />
+185-->[:twilioVideo] /Users/abhi/Desktop/Project/whpoctesting/android/twilioVideo/build/intermediates/library_manifest/debug/AndroidManifest.xml:44:17-76
+185-->[:twilioVideo] /Users/abhi/Desktop/Project/whpoctesting/android/twilioVideo/build/intermediates/library_manifest/debug/AndroidManifest.xml:44:27-73
+186                <category android:name="android.intent.category.BROWSABLE" />
+186-->[:twilioVideo] /Users/abhi/Desktop/Project/whpoctesting/android/twilioVideo/build/intermediates/library_manifest/debug/AndroidManifest.xml:45:17-78
+186-->[:twilioVideo] /Users/abhi/Desktop/Project/whpoctesting/android/twilioVideo/build/intermediates/library_manifest/debug/AndroidManifest.xml:45:27-75
+187
+188                <data android:scheme="@string/facebook_login_protocol_scheme" />
+188-->[:twilioVideo] /Users/abhi/Desktop/Project/whpoctesting/android/twilioVideo/build/intermediates/library_manifest/debug/AndroidManifest.xml:47:17-50:46
+188-->[:twilioVideo] /Users/abhi/Desktop/Project/whpoctesting/android/twilioVideo/build/intermediates/library_manifest/debug/AndroidManifest.xml:50:21-43
+189            </intent-filter>
+190        </activity>
+191
+192        <provider
+192-->[com.firebaseui:firebase-ui-auth:6.4.0] /Users/abhi/.gradle/caches/transforms-2/files-2.1/da1a46aa0db18db80c40b92e6458fe4b/jetified-firebase-ui-auth-6.4.0/AndroidManifest.xml:102:9-106:38
+193            android:name="com.firebase.ui.auth.data.client.AuthUiInitProvider"
+193-->[com.firebaseui:firebase-ui-auth:6.4.0] /Users/abhi/.gradle/caches/transforms-2/files-2.1/da1a46aa0db18db80c40b92e6458fe4b/jetified-firebase-ui-auth-6.4.0/AndroidManifest.xml:103:13-79
+194            android:authorities="com.twilliotesting.authuiinitprovider"
+194-->[com.firebaseui:firebase-ui-auth:6.4.0] /Users/abhi/.gradle/caches/transforms-2/files-2.1/da1a46aa0db18db80c40b92e6458fe4b/jetified-firebase-ui-auth-6.4.0/AndroidManifest.xml:104:13-70
+195            android:exported="false"
+195-->[com.firebaseui:firebase-ui-auth:6.4.0] /Users/abhi/.gradle/caches/transforms-2/files-2.1/da1a46aa0db18db80c40b92e6458fe4b/jetified-firebase-ui-auth-6.4.0/AndroidManifest.xml:105:13-37
+196            android:initOrder="90" />
+196-->[com.firebaseui:firebase-ui-auth:6.4.0] /Users/abhi/.gradle/caches/transforms-2/files-2.1/da1a46aa0db18db80c40b92e6458fe4b/jetified-firebase-ui-auth-6.4.0/AndroidManifest.xml:106:13-35
+197
+198        <activity
+198-->[com.google.firebase:firebase-auth:19.4.0] /Users/abhi/.gradle/caches/transforms-2/files-2.1/15f39f354f1e802e27595d567c84da8e/jetified-firebase-auth-19.4.0/AndroidManifest.xml:24:9-31:50
+199            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+199-->[com.google.firebase:firebase-auth:19.4.0] /Users/abhi/.gradle/caches/transforms-2/files-2.1/15f39f354f1e802e27595d567c84da8e/jetified-firebase-auth-19.4.0/AndroidManifest.xml:25:13-85
+200            android:excludeFromRecents="true"
+200-->[com.google.firebase:firebase-auth:19.4.0] /Users/abhi/.gradle/caches/transforms-2/files-2.1/15f39f354f1e802e27595d567c84da8e/jetified-firebase-auth-19.4.0/AndroidManifest.xml:26:13-46
+201            android:exported="true"
+201-->[com.google.firebase:firebase-auth:19.4.0] /Users/abhi/.gradle/caches/transforms-2/files-2.1/15f39f354f1e802e27595d567c84da8e/jetified-firebase-auth-19.4.0/AndroidManifest.xml:27:13-36
+202            android:launchMode="singleTask"
+202-->[com.google.firebase:firebase-auth:19.4.0] /Users/abhi/.gradle/caches/transforms-2/files-2.1/15f39f354f1e802e27595d567c84da8e/jetified-firebase-auth-19.4.0/AndroidManifest.xml:28:13-44
+203            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+203-->[com.google.firebase:firebase-auth:19.4.0] /Users/abhi/.gradle/caches/transforms-2/files-2.1/15f39f354f1e802e27595d567c84da8e/jetified-firebase-auth-19.4.0/AndroidManifest.xml:29:13-102
+204            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+204-->[com.google.firebase:firebase-auth:19.4.0] /Users/abhi/.gradle/caches/transforms-2/files-2.1/15f39f354f1e802e27595d567c84da8e/jetified-firebase-auth-19.4.0/AndroidManifest.xml:30:13-72
+205
+206        <service
+206-->[com.google.firebase:firebase-auth:19.4.0] /Users/abhi/.gradle/caches/transforms-2/files-2.1/15f39f354f1e802e27595d567c84da8e/jetified-firebase-auth-19.4.0/AndroidManifest.xml:33:9-39:19
+207            android:name="com.google.firebase.components.ComponentDiscoveryService"
+207-->[com.google.firebase:firebase-auth:19.4.0] /Users/abhi/.gradle/caches/transforms-2/files-2.1/15f39f354f1e802e27595d567c84da8e/jetified-firebase-auth-19.4.0/AndroidManifest.xml:34:13-84
+208            android:directBootAware="true"
+208-->[com.google.firebase:firebase-common:19.3.0] /Users/abhi/.gradle/caches/transforms-2/files-2.1/c2a9089850842f9c8ced999e7c3c05e9/jetified-firebase-common-19.3.0/AndroidManifest.xml:34:13-43
+209            android:exported="false" >
+209-->[com.google.firebase:firebase-auth:19.4.0] /Users/abhi/.gradle/caches/transforms-2/files-2.1/15f39f354f1e802e27595d567c84da8e/jetified-firebase-auth-19.4.0/AndroidManifest.xml:35:13-37
+210            <meta-data
+210-->[com.google.firebase:firebase-auth:19.4.0] /Users/abhi/.gradle/caches/transforms-2/files-2.1/15f39f354f1e802e27595d567c84da8e/jetified-firebase-auth-19.4.0/AndroidManifest.xml:36:13-38:85
+211                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+211-->[com.google.firebase:firebase-auth:19.4.0] /Users/abhi/.gradle/caches/transforms-2/files-2.1/15f39f354f1e802e27595d567c84da8e/jetified-firebase-auth-19.4.0/AndroidManifest.xml:37:17-109
+212                android:value="com.google.firebase.components.ComponentRegistrar" />
+212-->[com.google.firebase:firebase-auth:19.4.0] /Users/abhi/.gradle/caches/transforms-2/files-2.1/15f39f354f1e802e27595d567c84da8e/jetified-firebase-auth-19.4.0/AndroidManifest.xml:38:17-82
+213            <meta-data
+213-->[com.google.android.gms:play-services-measurement-api:17.5.0] /Users/abhi/.gradle/caches/transforms-2/files-2.1/143f4b9d34b875d38f2a42629fbf2de7/jetified-play-services-measurement-api-17.5.0/AndroidManifest.xml:30:13-32:85
+214                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+214-->[com.google.android.gms:play-services-measurement-api:17.5.0] /Users/abhi/.gradle/caches/transforms-2/files-2.1/143f4b9d34b875d38f2a42629fbf2de7/jetified-play-services-measurement-api-17.5.0/AndroidManifest.xml:31:17-139
+215                android:value="com.google.firebase.components.ComponentRegistrar" />
+215-->[com.google.android.gms:play-services-measurement-api:17.5.0] /Users/abhi/.gradle/caches/transforms-2/files-2.1/143f4b9d34b875d38f2a42629fbf2de7/jetified-play-services-measurement-api-17.5.0/AndroidManifest.xml:32:17-82
+216            <meta-data
+216-->[com.google.firebase:firebase-installations:16.3.2] /Users/abhi/.gradle/caches/transforms-2/files-2.1/841cca555d809a05ea14bc754c694058/jetified-firebase-installations-16.3.2/AndroidManifest.xml:17:13-19:85
+217                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+217-->[com.google.firebase:firebase-installations:16.3.2] /Users/abhi/.gradle/caches/transforms-2/files-2.1/841cca555d809a05ea14bc754c694058/jetified-firebase-installations-16.3.2/AndroidManifest.xml:18:17-127
+218                android:value="com.google.firebase.components.ComponentRegistrar" />
+218-->[com.google.firebase:firebase-installations:16.3.2] /Users/abhi/.gradle/caches/transforms-2/files-2.1/841cca555d809a05ea14bc754c694058/jetified-firebase-installations-16.3.2/AndroidManifest.xml:19:17-82
+219        </service>
+220
+221        <activity
+221-->[com.google.android.gms:play-services-auth:17.0.0] /Users/abhi/.gradle/caches/transforms-2/files-2.1/0991188ecd672fddf2e67a0f0f853b4c/jetified-play-services-auth-17.0.0/AndroidManifest.xml:23:9-27:75
+222            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+222-->[com.google.android.gms:play-services-auth:17.0.0] /Users/abhi/.gradle/caches/transforms-2/files-2.1/0991188ecd672fddf2e67a0f0f853b4c/jetified-play-services-auth-17.0.0/AndroidManifest.xml:24:13-93
+223            android:excludeFromRecents="true"
+223-->[com.google.android.gms:play-services-auth:17.0.0] /Users/abhi/.gradle/caches/transforms-2/files-2.1/0991188ecd672fddf2e67a0f0f853b4c/jetified-play-services-auth-17.0.0/AndroidManifest.xml:25:13-46
+224            android:exported="false"
+224-->[com.google.android.gms:play-services-auth:17.0.0] /Users/abhi/.gradle/caches/transforms-2/files-2.1/0991188ecd672fddf2e67a0f0f853b4c/jetified-play-services-auth-17.0.0/AndroidManifest.xml:26:13-37
+225            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+225-->[com.google.android.gms:play-services-auth:17.0.0] /Users/abhi/.gradle/caches/transforms-2/files-2.1/0991188ecd672fddf2e67a0f0f853b4c/jetified-play-services-auth-17.0.0/AndroidManifest.xml:27:13-72
+226        <!--
+227            Service handling Google Sign-In user revocation. For apps that do not integrate with
+228            Google Sign-In, this service will never be started.
+229        -->
+230        <service
+230-->[com.google.android.gms:play-services-auth:17.0.0] /Users/abhi/.gradle/caches/transforms-2/files-2.1/0991188ecd672fddf2e67a0f0f853b4c/jetified-play-services-auth-17.0.0/AndroidManifest.xml:33:9-36:110
+231            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+231-->[com.google.android.gms:play-services-auth:17.0.0] /Users/abhi/.gradle/caches/transforms-2/files-2.1/0991188ecd672fddf2e67a0f0f853b4c/jetified-play-services-auth-17.0.0/AndroidManifest.xml:34:13-89
+232            android:exported="true"
+232-->[com.google.android.gms:play-services-auth:17.0.0] /Users/abhi/.gradle/caches/transforms-2/files-2.1/0991188ecd672fddf2e67a0f0f853b4c/jetified-play-services-auth-17.0.0/AndroidManifest.xml:35:13-36
+233            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />
+233-->[com.google.android.gms:play-services-auth:17.0.0] /Users/abhi/.gradle/caches/transforms-2/files-2.1/0991188ecd672fddf2e67a0f0f853b4c/jetified-play-services-auth-17.0.0/AndroidManifest.xml:36:13-107
+234
+235        <activity
+235-->[com.google.android.gms:play-services-base:17.1.0] /Users/abhi/.gradle/caches/transforms-2/files-2.1/a430b0a97bedb8d3cced5ae21a661d13/jetified-play-services-base-17.1.0/AndroidManifest.xml:23:9-26:75
+236            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+236-->[com.google.android.gms:play-services-base:17.1.0] /Users/abhi/.gradle/caches/transforms-2/files-2.1/a430b0a97bedb8d3cced5ae21a661d13/jetified-play-services-base-17.1.0/AndroidManifest.xml:24:13-79
+237            android:exported="false"
+237-->[com.google.android.gms:play-services-base:17.1.0] /Users/abhi/.gradle/caches/transforms-2/files-2.1/a430b0a97bedb8d3cced5ae21a661d13/jetified-play-services-base-17.1.0/AndroidManifest.xml:25:13-37
+238            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+238-->[com.google.android.gms:play-services-base:17.1.0] /Users/abhi/.gradle/caches/transforms-2/files-2.1/a430b0a97bedb8d3cced5ae21a661d13/jetified-play-services-base-17.1.0/AndroidManifest.xml:26:13-72
+239
+240        <receiver
+240-->[com.google.android.gms:play-services-measurement:17.5.0] /Users/abhi/.gradle/caches/transforms-2/files-2.1/5a353182cc7875d884b3b8c8752c6aa2/jetified-play-services-measurement-17.5.0/AndroidManifest.xml:29:9-33:20
+241            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+241-->[com.google.android.gms:play-services-measurement:17.5.0] /Users/abhi/.gradle/caches/transforms-2/files-2.1/5a353182cc7875d884b3b8c8752c6aa2/jetified-play-services-measurement-17.5.0/AndroidManifest.xml:30:13-85
+242            android:enabled="true"
+242-->[com.google.android.gms:play-services-measurement:17.5.0] /Users/abhi/.gradle/caches/transforms-2/files-2.1/5a353182cc7875d884b3b8c8752c6aa2/jetified-play-services-measurement-17.5.0/AndroidManifest.xml:31:13-35
+243            android:exported="false" >
+243-->[com.google.android.gms:play-services-measurement:17.5.0] /Users/abhi/.gradle/caches/transforms-2/files-2.1/5a353182cc7875d884b3b8c8752c6aa2/jetified-play-services-measurement-17.5.0/AndroidManifest.xml:32:13-37
+244        </receiver>
+245
+246        <service
+246-->[com.google.android.gms:play-services-measurement:17.5.0] /Users/abhi/.gradle/caches/transforms-2/files-2.1/5a353182cc7875d884b3b8c8752c6aa2/jetified-play-services-measurement-17.5.0/AndroidManifest.xml:35:9-38:40
+247            android:name="com.google.android.gms.measurement.AppMeasurementService"
+247-->[com.google.android.gms:play-services-measurement:17.5.0] /Users/abhi/.gradle/caches/transforms-2/files-2.1/5a353182cc7875d884b3b8c8752c6aa2/jetified-play-services-measurement-17.5.0/AndroidManifest.xml:36:13-84
+248            android:enabled="true"
+248-->[com.google.android.gms:play-services-measurement:17.5.0] /Users/abhi/.gradle/caches/transforms-2/files-2.1/5a353182cc7875d884b3b8c8752c6aa2/jetified-play-services-measurement-17.5.0/AndroidManifest.xml:37:13-35
+249            android:exported="false" />
+249-->[com.google.android.gms:play-services-measurement:17.5.0] /Users/abhi/.gradle/caches/transforms-2/files-2.1/5a353182cc7875d884b3b8c8752c6aa2/jetified-play-services-measurement-17.5.0/AndroidManifest.xml:38:13-37
+250        <service
+250-->[com.google.android.gms:play-services-measurement:17.5.0] /Users/abhi/.gradle/caches/transforms-2/files-2.1/5a353182cc7875d884b3b8c8752c6aa2/jetified-play-services-measurement-17.5.0/AndroidManifest.xml:39:9-43:72
+251            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+251-->[com.google.android.gms:play-services-measurement:17.5.0] /Users/abhi/.gradle/caches/transforms-2/files-2.1/5a353182cc7875d884b3b8c8752c6aa2/jetified-play-services-measurement-17.5.0/AndroidManifest.xml:40:13-87
+252            android:enabled="true"
+252-->[com.google.android.gms:play-services-measurement:17.5.0] /Users/abhi/.gradle/caches/transforms-2/files-2.1/5a353182cc7875d884b3b8c8752c6aa2/jetified-play-services-measurement-17.5.0/AndroidManifest.xml:41:13-35
+253            android:exported="false"
+253-->[com.google.android.gms:play-services-measurement:17.5.0] /Users/abhi/.gradle/caches/transforms-2/files-2.1/5a353182cc7875d884b3b8c8752c6aa2/jetified-play-services-measurement-17.5.0/AndroidManifest.xml:42:13-37
+254            android:permission="android.permission.BIND_JOB_SERVICE" />
+254-->[com.google.android.gms:play-services-measurement:17.5.0] /Users/abhi/.gradle/caches/transforms-2/files-2.1/5a353182cc7875d884b3b8c8752c6aa2/jetified-play-services-measurement-17.5.0/AndroidManifest.xml:43:13-69
+255
+256        <provider
+256-->[com.google.firebase:firebase-common:19.3.0] /Users/abhi/.gradle/caches/transforms-2/files-2.1/c2a9089850842f9c8ced999e7c3c05e9/jetified-firebase-common-19.3.0/AndroidManifest.xml:26:9-30:39
+257            android:name="com.google.firebase.provider.FirebaseInitProvider"
+257-->[com.google.firebase:firebase-common:19.3.0] /Users/abhi/.gradle/caches/transforms-2/files-2.1/c2a9089850842f9c8ced999e7c3c05e9/jetified-firebase-common-19.3.0/AndroidManifest.xml:27:13-77
+258            android:authorities="com.twilliotesting.firebaseinitprovider"
+258-->[com.google.firebase:firebase-common:19.3.0] /Users/abhi/.gradle/caches/transforms-2/files-2.1/c2a9089850842f9c8ced999e7c3c05e9/jetified-firebase-common-19.3.0/AndroidManifest.xml:28:13-72
+259            android:exported="false"
+259-->[com.google.firebase:firebase-common:19.3.0] /Users/abhi/.gradle/caches/transforms-2/files-2.1/c2a9089850842f9c8ced999e7c3c05e9/jetified-firebase-common-19.3.0/AndroidManifest.xml:29:13-37
+260            android:initOrder="100" />
+260-->[com.google.firebase:firebase-common:19.3.0] /Users/abhi/.gradle/caches/transforms-2/files-2.1/c2a9089850842f9c8ced999e7c3c05e9/jetified-firebase-common-19.3.0/AndroidManifest.xml:30:13-36
+261        <provider
+261-->[androidx.lifecycle:lifecycle-process:2.1.0] /Users/abhi/.gradle/caches/transforms-2/files-2.1/728a044913135fded6a3f0762aca5125/jetified-lifecycle-process-2.1.0/AndroidManifest.xml:23:9-27:43
+262            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+262-->[androidx.lifecycle:lifecycle-process:2.1.0] /Users/abhi/.gradle/caches/transforms-2/files-2.1/728a044913135fded6a3f0762aca5125/jetified-lifecycle-process-2.1.0/AndroidManifest.xml:24:13-79
+263            android:authorities="com.twilliotesting.lifecycle-process"
+263-->[androidx.lifecycle:lifecycle-process:2.1.0] /Users/abhi/.gradle/caches/transforms-2/files-2.1/728a044913135fded6a3f0762aca5125/jetified-lifecycle-process-2.1.0/AndroidManifest.xml:25:13-69
+264            android:exported="false"
+264-->[androidx.lifecycle:lifecycle-process:2.1.0] /Users/abhi/.gradle/caches/transforms-2/files-2.1/728a044913135fded6a3f0762aca5125/jetified-lifecycle-process-2.1.0/AndroidManifest.xml:26:13-37
+265            android:multiprocess="true" />
+265-->[androidx.lifecycle:lifecycle-process:2.1.0] /Users/abhi/.gradle/caches/transforms-2/files-2.1/728a044913135fded6a3f0762aca5125/jetified-lifecycle-process-2.1.0/AndroidManifest.xml:27:13-40
+266    </application>
+267
+268</manifest>

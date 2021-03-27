@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/abhi/Desktop/Project/whpoctesting/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v19/values-v19.xml",
+            "map": [
+                {
+                    "source": "/Users/abhi/Desktop/Project/whpoctesting/android/twilioVideo/build/intermediates/packaged_res/debug/values-v19/values-v19.xml",
+                    "from": {
+                        "startLines": "2,13",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,620",
+                        "endLines": "12,17",
+                        "endColumns": "12,12",
+                        "endOffsets": "615,822"
+                    }
+                }
+            ]
+        }
+    ]
+}

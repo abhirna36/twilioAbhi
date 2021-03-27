@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: io.uniflow:uniflow-androidx:0.11.2@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/150786c6a1467ba3e19b8c363c3ff21a/jetified-uniflow-androidx-0.11.2/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/150786c6a1467ba3e19b8c363c3ff21a/jetified-uniflow-androidx-0.11.2/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/150786c6a1467ba3e19b8c363c3ff21a/jetified-uniflow-androidx-0.11.2/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.uniflow/uniflow-androidx/0.11.2/594e6b56f18dbacbe24bbb7781a309bcf8d29f05/uniflow-androidx-0.11.2-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.uniflow/uniflow-androidx/0.11.2/f110a520a08debb18fae14c25882e0547aaaae18/uniflow-androidx-0.11.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

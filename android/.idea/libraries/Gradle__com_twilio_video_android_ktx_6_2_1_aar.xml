@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.twilio:video-android-ktx:6.2.1@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/8f04ce2595d62c8d01956d55126b4a7d/jetified-video-android-ktx-6.2.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/8f04ce2595d62c8d01956d55126b4a7d/jetified-video-android-ktx-6.2.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/8f04ce2595d62c8d01956d55126b4a7d/jetified-video-android-ktx-6.2.1/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.twilio/video-android-ktx/6.2.1/e994811c9a27de14469880c1cda112571690198/video-android-ktx-6.2.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

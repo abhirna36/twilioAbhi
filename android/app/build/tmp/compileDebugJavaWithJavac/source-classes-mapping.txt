@@ -1,0 +1,13 @@
+com/twilliotesting/BuildConfig.java
+ com.twilliotesting.BuildConfig
+com/twilliotesting/MainApplication.java
+ com.twilliotesting.MainApplication
+ com.twilliotesting.MainApplication$1
+com/twilliotesting/framework/TwilioTestPacakage.java
+ com.twilliotesting.framework.TwilioTestPacakage
+com/twilliotesting/MainActivity.java
+ com.twilliotesting.MainActivity
+com/facebook/react/PackageList.java
+ com.facebook.react.PackageList
+com/twilliotesting/framework/TwilioTestModule.java
+ com.twilliotesting.framework.TwilioTestModule

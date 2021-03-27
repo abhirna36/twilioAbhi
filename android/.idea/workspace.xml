@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="error" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="043a26cd-4114-48b0-9315-149a84184be9" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../App.js" beforeDir="false" afterPath="$PROJECT_DIR$/../App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/debug/java/com/twilliotesting/ReactNativeFlipper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/twilliotesting/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/twilliotesting/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/twilliotesting/MainApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/twilliotesting/MainApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../yarn.lock" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[paidDevice]" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1qHuajrL10oZDRwfISHQWicYgyi" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="paidDevice" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2021-03-26T12:28:45.249Z" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="android-custom-view/Users/abhi/Desktop/Project/whpoctesting/android/twilioVideo/src/main/java/com/twilio/video/app/ui/room/ClearableEditText.java_SELECTED" value="ClearableEditText" />
+    <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/java/com" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="multi-representation-preview/Users/abhi/Desktop/Project/whpoctesting/android/twilioVideo/src/main/java/com/twilio/video/app/ui/room/ClearableEditText.java_selected" value="Custom views" />
+    <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="com.twilio.video.app.ui.splash" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.twilio.video.app" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="TwillioTesting.app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ALL_USERS" value="false" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
+      <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="043a26cd-4114-48b0-9315-149a84184be9" name="Default Changelist" comment="" />
+      <created>1616748901769</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1616748901769</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="709" y="273" key="#com.intellij.ide.util.MemberChooser" timestamp="1616870072662">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="709" y="273" key="#com.intellij.ide.util.MemberChooser/0.0.1792.1120@0.0.1792.1120" timestamp="1616870072662" />
+    <state x="402" y="436" width="988" height="256" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1616758828284">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="402" y="436" width="988" height="256" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1792.1120@0.0.1792.1120" timestamp="1616758828284" />
+    <state x="634" y="314" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1616764100220">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="634" y="314" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1616764100220" />
+    <state x="377" y="345" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog" timestamp="1616759047673">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="377" y="345" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1616759047673" />
+    <state x="100" y="100" width="1592" height="920" key="AVDManager" timestamp="1616864841292">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="100" y="100" width="1592" height="920" key="AVDManager/0.0.1792.1120@0.0.1792.1120" timestamp="1616864841292" />
+    <state width="1750" height="328" key="GridCell.Tab.0.bottom" timestamp="1616870242841">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state width="1750" height="328" key="GridCell.Tab.0.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1616870242841" />
+    <state width="1225" height="15" key="GridCell.Tab.0.bottom/0.23.1792.1041@0.23.1792.1041" timestamp="1616756460676" />
+    <state width="1750" height="328" key="GridCell.Tab.0.center" timestamp="1616870242840">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state width="1750" height="328" key="GridCell.Tab.0.center/0.0.1792.1120@0.0.1792.1120" timestamp="1616870242840" />
+    <state width="1225" height="15" key="GridCell.Tab.0.center/0.23.1792.1041@0.23.1792.1041" timestamp="1616756460676" />
+    <state width="1750" height="328" key="GridCell.Tab.0.left" timestamp="1616870242839">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state width="1750" height="328" key="GridCell.Tab.0.left/0.0.1792.1120@0.0.1792.1120" timestamp="1616870242839" />
+    <state width="1225" height="15" key="GridCell.Tab.0.left/0.23.1792.1041@0.23.1792.1041" timestamp="1616756460675" />
+    <state width="1750" height="328" key="GridCell.Tab.0.right" timestamp="1616870242840">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state width="1750" height="328" key="GridCell.Tab.0.right/0.0.1792.1120@0.0.1792.1120" timestamp="1616870242840" />
+    <state width="1225" height="15" key="GridCell.Tab.0.right/0.23.1792.1041@0.23.1792.1041" timestamp="1616756460676" />
+    <state x="673" y="345" key="chooseDestDirectoryDialog" timestamp="1616758997329">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="673" y="345" key="chooseDestDirectoryDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1616758997329" />
+    <state x="588" y="192" width="615" height="735" key="find.popup" timestamp="1616868501755">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="588" y="192" width="615" height="735" key="find.popup/0.0.1792.1120@0.0.1792.1120" timestamp="1616868501755" />
+    <state x="561" y="251" width="670" height="676" key="search.everywhere.popup" timestamp="1616869325571">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="561" y="251" width="670" height="676" key="search.everywhere.popup/0.0.1792.1120@0.0.1792.1120" timestamp="1616869325571" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/build.gradle</url>
+          <line>215</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

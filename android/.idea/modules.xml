@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/TwillioTesting.iml" filepath="$PROJECT_DIR$/.idea/modules/TwillioTesting.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/TwillioTesting.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/TwillioTesting.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-344897628/TwillioTesting.react-native-webview.iml" filepath="$PROJECT_DIR$/.idea/modules/-344897628/TwillioTesting.react-native-webview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/twilioVideo/TwillioTesting.twilioVideo.iml" filepath="$PROJECT_DIR$/.idea/modules/twilioVideo/TwillioTesting.twilioVideo.iml" />
+    </modules>
+  </component>
+</project>
